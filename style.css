@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+ margin: 30px;
+  background-color: whitesmoke;
+    margin-left: 80px;
+  margin-right: 80px;
+}
+/*.main{
+    margin:40px
+}*/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.links {
+  display: flex;
+  align-items: baseline;
+  gap: 46px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 600ms;
+}
+a:hover {
+  text-decoration: underline;
+  scale: 1.1;
+}
+button {
+  border: none;
+  background-color: #75bf7a;
+  border-radius: 5.95px;
+  color: white;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 90px;
+  margin-right: 50px;
+}
+
+.text {
+  text-align: justify;
+
+  width: 640px;
+  margin-left: 10px;
+}
+
+.heading {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 800;
+}
+
+.text p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: start;
+  color: #9e9da2;
+
+  width: 590px;
+}
+
+.down {
+  display: flex;
+  gap: 30px;
+  height: 66px;
+  width: 260px;
+  margin: 62px 0px 10px 0;
+  transition: 5000s;
+}
+.down :hover {
+  transform: TranslateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-car {
+  width: 553px;
+  height: 582.81298828125px;
+  padding: 10px;
+}
+
+.search {
+  width: 1280px;
+  height: 166px;
+  background-color: #75bf7a;
+  border-radius: 10px;
+  margin: 86px 0px 0px 140px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 24.6px;
+  justify-content: space-around;
+  font-weight: 600;
+  line-height: 30px;
+}
+.search input {
+  height: 67px;
+  width: 499px;
+  font-size: 24px;
+  border-radius: 4.39px;
+}
+input:focus {
+  outline: none;
+}
+
+.inputs {
+  width: 260px;
+  height: 67px;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  border-radius: 4.39px;
+}
+
+.differ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 60px;
+  font-size: 46px;
+  font-weight: 800;
+}
+.green {
+  margin-left: 13px;
+  margin-right: 13px;
+  color: #75bf7a;
+}
+.para {
+  text-align: center;
+  width: 620px;
+  height: 96px;
+  font-size: 23px;
+  font-weight: 500;
+
+  color: #9e9da2;
+  margin-top: -19px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.works {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 80px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 20px;
+  gap: 60px;
+}
+
+.text-right {
+  text-align: right;
+
+  font-size: 20px;
+}
+.definition {
+  font-size: 20px;
+  line-height: 20px;
+}
+.step-card .head3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-card p {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  width: 300px;
+  color: #888;
+  line-height: 1.6;
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 61px;
+  margin-bottom: 15px;
+}
+
+
+.center-side {
+  display: flex;
+  justify-content: center;
+}
+
+.big-circle {
+  width: 400px;
+  height: 400px;
+  background-color: #75bf7a; 
+  border-radius: 50%;
+
+}
+.icon-1 {
+  height: 76px;
+  width: 76px;
+}
+div .rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.small{
+  border: #75bf7a;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #72c07b;
+}
+.smalll{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #888;
+}
+.small-circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.benifits{
+  width: 1060px;
+  height: 304px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 145px;
+}
+.points{
+  font-size: 88px;
+  color:#75bf7a;
+  font-weight: 500;
+}
+.points-def{
+  color: #000;
+  font-size: 33px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.outside{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 23px;
+  margin-left: 38px;
+  width: 500px;
+ 
+}
+.pointss{
+margin-top: -90px;
+margin-left: 46px;
+font-size: 22px;
+font-weight: 500;
+color:#9E9DA2;
+width: 500px;
+}
