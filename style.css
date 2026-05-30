@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
- margin: 30px;
+  margin: 30px;
   background-color: whitesmoke;
-    margin-left: 80px;
+  margin-left: 80px;
   margin-right: 80px;
 }
 /*.main{
@@ -15,7 +15,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .links {
@@ -215,7 +214,6 @@ input:focus {
   margin-bottom: 15px;
 }
 
-
 .center-side {
   display: flex;
   justify-content: center;
@@ -224,9 +222,8 @@ input:focus {
 .big-circle {
   width: 400px;
   height: 400px;
-  background-color: #75bf7a; 
+  background-color: #75bf7a;
   border-radius: 50%;
-
 }
 .icon-1 {
   height: 76px;
@@ -237,57 +234,56 @@ div .rectangle {
   align-items: center;
   justify-content: center;
 }
-.small{
+.small {
   border: #75bf7a;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: #72c07b;
 }
-.smalll{
+.smalll {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: #888;
 }
-.small-circle{
+.small-circle {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
 }
-.benifits{
+.benifits {
   width: 1060px;
   height: 304px;
   background-color: white;
   border-radius: 10px;
   margin-left: 145px;
 }
-.points{
+.points {
   font-size: 88px;
-  color:#75bf7a;
+  color: #75bf7a;
   font-weight: 500;
 }
-.points-def{
+.points-def {
   color: #000;
   font-size: 33px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
-.outside{
+.outside {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   gap: 23px;
   margin-left: 38px;
   width: 500px;
- 
 }
-.pointss{
-margin-top: -90px;
-margin-left: 46px;
-font-size: 22px;
-font-weight: 500;
-color:#9E9DA2;
-width: 500px;
+.pointss {
+  margin-top: -90px;
+  margin-left: 46px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #9e9da2;
+  width: 500px;
 }
