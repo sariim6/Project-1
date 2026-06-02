@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-  margin: 30px;
   background-color: whitesmoke;
-  margin-left: 80px;
-  margin-right: 80px;
 }
 /*.main{
     margin:40px
@@ -15,12 +12,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 144px;
+  background-color: #ffffff;
+}
+.logo {
+  margin-left: 80px;
 }
 
 .links {
   display: flex;
   align-items: baseline;
   gap: 46px;
+  margin-right: 80px;
 }
 
 a {
@@ -50,12 +54,12 @@ button {
   justify-content: space-between;
   align-items: end;
   margin-top: 90px;
-  margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .text {
   text-align: justify;
-
   width: 640px;
   margin-left: 10px;
 }
@@ -92,7 +96,11 @@ button {
 .image-car {
   width: 553px;
   height: 582.81298828125px;
-  padding: 10px;
+}
+.typee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search {
@@ -100,7 +108,7 @@ button {
   height: 166px;
   background-color: #75bf7a;
   border-radius: 10px;
-  margin: 86px 0px 0px 140px;
+  margin: 86px 0 120px 0;
   color: white;
   display: flex;
   align-items: center;
@@ -134,7 +142,6 @@ input:focus {
   align-items: center;
   justify-content: center;
   text-align: justify;
-  margin-top: 60px;
   font-size: 46px;
   font-weight: 800;
 }
@@ -218,7 +225,10 @@ input:focus {
   display: flex;
   justify-content: center;
 }
-
+.mobile {
+  text-align: center;
+  margin-top: -80px;
+}
 .big-circle {
   width: 400px;
   height: 400px;
@@ -253,37 +263,95 @@ div .rectangle {
   justify-content: center;
   gap: 4px;
 }
+.wholes {
+  gap: 46px;
+  display: flex;
+  flex-direction: column;
+  border: 2px soild red;
+}
 .benifits {
   width: 1060px;
   height: 304px;
   background-color: white;
   border-radius: 10px;
   margin-left: 145px;
+  padding: 0 2% 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.points {
+.written {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: -60px;
+}
+.headd {
   font-size: 88px;
   color: #75bf7a;
   font-weight: 500;
 }
-.points-def {
-  color: #000;
-  font-size: 33px;
-  font-family: "Montserrat", sans-serif;
+.paraa {
+  font-size: 34px;
   font-weight: 600;
+  line-height: 32px;
 }
-.outside {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 23px;
-  margin-left: 38px;
-  width: 500px;
-}
-.pointss {
-  margin-top: -90px;
-  margin-left: 46px;
+.texxt {
+  margin-top: -100px;
+  margin-left: 10px;
   font-size: 22px;
   font-weight: 500;
+  line-height: 23px;
   color: #9e9da2;
-  width: 500px;
+}
+.two {
+  display: flex;
+  justify-content: end;
+  margin-right: 145px;
+}
+footer {
+  margin-top: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  border: 2px soild red;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+}
+footer img {
+  margin-left: 148px;
+}
+.button-download {
+  width: 178px;
+  height: 45px;
+  margin-left: -0px;
+}
+.download-bottom :hover {
+  transform: translateY(-10px);
+}
+.download-bottom {
+  margin-right: 80px;
+  transition: 500s;
+}
+.last-text {
+  color: #8b8ba5;
+}
+.last-para {
+  font-size: 22px;
+  font-weight: 500;
+  color: #272042;
+}
+.copyrights {
+  color: #75bf7a;
+  font-size: 16px;
+  font-weight: 400;
 }
